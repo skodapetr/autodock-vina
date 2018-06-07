@@ -1,5 +1,5 @@
 # autodock-vina
-Rork of autodock vina, from http://vina.scripps.edu/.
+Fork of autodock vina, from http://vina.scripps.edu/.
 
 ## Depedencies
 *  [Boost 1.67](https://www.boost.org/doc/libs/1_67_0/) 
