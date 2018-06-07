@@ -395,7 +395,7 @@ model parse_bundle(const boost::optional<std::string>& rigid_name_opt, const boo
 
 int main(int argc, char* argv[]) {
 	using namespace boost::program_options;
-	const std::string version_string = "AutoDock Vina 1.1.2 (May 11, 2011)";
+	const std::string version_string = "AutoDock Vina 1.1.2 (" __DATE__ ")";
 	const std::string error_message = "\n\n\
 Please contact the author, Dr. Oleg Trott <ot14@columbia.edu>, so\n\
 that this problem can be resolved. The reproducibility of the\n\
