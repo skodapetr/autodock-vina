@@ -301,7 +301,7 @@ void main_procedure(model& m, const boost::optional<model>& ref, // m is non-con
 	par.mc.num_steps = unsigned(70 * 3 * (50 + heuristic) / 2); // 2 * 70 -> 8 * 20 // FIXME
 	par.mc.ssd_par.evals = unsigned((25 + m.num_movable_atoms()) / 3);
 	par.mc.min_rmsd = 1.0;
-	par.mc.num_saved_mins = 20;
+	par.mc.num_saved_mins = num_modes;
 	par.mc.hunt_cap = vec(10, 10, 10);
 	par.num_tasks = exhaustiveness;
 	par.num_threads = cpu;
