@@ -16,4 +16,5 @@ Fork of autodock vina, from http://vina.scripps.edu/.
  * build `vina` or `vina-split` project
 
 ## Change log
+ * Update sources to work with Boost 1.67
  * Fix issue with hardcoded limit on generated models
