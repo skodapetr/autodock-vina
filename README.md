@@ -4,6 +4,9 @@ Fork of autodock vina, from http://vina.scripps.edu/.
 ## Dependencies
 *  [Boost 1.67](https://www.boost.org/doc/libs/1_67_0/) 
 
+## Binaries 
+Binaries (Windows, Linux) can be downloaded from [repository releases](https://github.com/skodapetr/autodock-vina/releases). 
+
 ## Installation
 
 ### Linux
@@ -23,3 +26,5 @@ Fork of autodock vina, from http://vina.scripps.edu/.
 ## Change log
  * Update sources to work with Boost 1.67
  * Fix issue with hardcoded limit on generated models
+
+
