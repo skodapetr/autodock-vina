@@ -1,0 +1,6 @@
+# Set the default behavior for all files.
+* text auto
+
+# Set on checkout.
+*.sh  text eol=lf
+*.bat text eol=crlf
